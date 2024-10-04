@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework.decorators import api_view #DIZENDO QUE SÓ ACEITA O GET E POST 
+from rest_framework.decorators import api_view #DIZENDO QUE SÓ ACEITA O GET E POST api_view
 from .models import Produto
 from .serializers import ProdutoSerializer
 from rest_framework import status
